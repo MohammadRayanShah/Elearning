@@ -1,0 +1,291 @@
+/*    Navigation   */
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2em;
+font-weight:bold;
+}
+.custom-nav-item a{
+color: white !important;
+}
+.custom-nav-item:hover
+{
+background-color: orange ;
+border : 1px solid orange;
+border-radius: 10px;
+}
+.custom-nav-item{
+padding-left: 10px;
+}
+.navbar{
+padding-left: 25px;
+position: absolute;
+z-index: 2;
+top: 0;
+left: 0;
+width: 100%;
+}
+.navbar-nav{
+padding-left: 20px;
+}
+/*  Banner video  */
+.remove-vid-marg
+{
+margin: 0px;
+padding: 0px;
+}
+.vid-parent
+{
+position: relative;
+z-index: 0;
+}
+video{
+width: 100%;
+height: 100%;
+}
+.vid-overlay{
+position: absolute;
+top: 0;
+left: 0;
+height: 760px;
+width: 100%;
+z-index: 1;
+background-color: #062227;
+opacity: 0.3;
+}
+.vid-content{
+position: absolute;
+top: 40%;
+left: 35%;
+z-index: 1;
+color: white;
+text-align: center;
+}
+.vid-content a{
+background-color: #f76a05;
+border:none;
+margin-top: 8px;
+}
+/*  Text banner  */
+.bottom-banner{
+color: white;
+margin-top: -6px;
+padding: 10px;
+}
+
+/* Start Most Popular Courses  */
+.container{
+padding-left: 19px;
+}
+.btn-sub-card{
+	margin-top: -40px;
+margin-left: 240px;
+background-color: #1d56ad;
+color: white;
+}
+.btn-sub-card:hover{
+   	background-color: pink;
+   }
+
+.card-img-top{
+height: 200px;
+width: 300px;
+padding-left: 30px;
+padding-top: 10px;
+}
+.card{
+display:inline-table;
+width: 30%;
+height: 400px;
+margin: 10px;
+}
+.card-text
+{
+margin-top: 25px;
+padding-right: 10px;
+}
+.font-weight-bolder{
+font-weight:700;
+}
+/*	Contact us 	*/
+.stripe{
+background-image: linear-gradient(240deg, #ed213a,#93291e);
+padding: 35px;
+height: 13rem;
+margin-top: 4rem;
+transform: rotate(10deg);
+z-index: -5;
+}
+.contact{
+position: relative;
+}
+.contact-img{
+	position: absolute;
+	height: 80%;
+	width: 100%;
+	z-index: -6;
+}
+.contact-head{
+	font-size: 250%;
+	color: #f70213;
+}
+								/*		Student Testimonials 	*/
+
+.student{
+	width: 250px;
+}
+.student-img{
+	width: 110%;
+}
+.container-testimonial{
+    padding-left: 150px; 
+    color: black;
+    background-color: #24608f;
+    padding-bottom: 20px;
+}
+.testimonial{
+	display: inline-table;
+	background-color: #24608f;
+	color: white;
+	padding-right: 50px;
+	margin-right: 45px;
+	border: 2px solid white;
+	margin-bottom: 10px;
+}
+
+.container-testimonial h1{
+	padding-top: 50px;
+	padding-left: 330px;
+	margin-bottom: 30px;
+}
+.student-text{
+	padding-left:15px;
+	padding-top: 20px;
+}
+.student-name{
+	padding-left: 15px;
+	margin-bottom: -10px;
+	margin-right: -50px;
+
+	border-top: 2px solid white;
+}
+											/*    Social Media links    */
+
+.container-links{
+	background-color: #e62012
+}			
+.links{
+	padding: 0px 125px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}		
+.links:hover{
+	background-color: #cee6f5;
+	color: #0238fa;
+}
+									/*    About Section    */
+.container-about{
+padding-left: 20px;
+padding-top: 20px;
+background-color: #e8d9d8
+}
+.about{
+	display: inline-table;
+	padding: 0px 100px;
+}
+.about-us{
+	width: 35%;
+	text-align: center;
+}
+.about-category{
+	width: 25%;
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+.about-links{
+	display: inline;
+	text-decoration: none;
+}
+.about-links:hover{
+	color: blue;
+}
+.contact-us{
+	text-align: center;
+}	
+                        /*		copyright Section		*/
+
+  .container-copyright{
+  	padding: 0.5px;
+  	text-align: center;
+  	background-color: #383836;
+  	color: white;
+  	height: 31px;
+  }           
+  .container-copyright p{
+  	margin-top:5px; 
+  	font-size: 80%;
+
+  }          
+  					/*   			Modal        */
+  .form-group{
+  	padding-top: 10px;
+  }
+
+ 					/*   			Course        */
+ 					 					/*   			Course Banner        */
+ .courseBannerImg{
+ 	margin-left: -129px; 
+ 	width: 1354px;
+ 	height: 657px;
+ 	filter: grayscale(100%);
+ }
+ 	/*   		Payment Status       */
+ 					 					/*   			Payment        */
+ .paymentStatus{
+ 	margin-top: 15px;
+ 	margin-bottom: 15px;
+ }
+ .btn-pay{
+ 	background-color: blue;
+ 	color: white;
+ 	height: 35px;
+ }
+ .btn-pay:hover{
+ 	background-color: red;
+ 	color: white;
+ }
+ .pay-input:focus{
+background-color: pink;
+ }
+ .pay-input{
+ }
+ 	/*   	Course Details      */
+ 					 					/*   			Course        */
+ 
+.CourseDetails{
+	margin-top: 50px;
+		margin-bottom: 50px;
+}
+ .CDimg{
+ 	height: 250px;
+ 	width: 250px;
+ }
+ 
+ 
+ 
+											/*    Responsive    */
+@media screen and (max-width: 700px)
+{
+.vid-content{
+top:18%;
+left: 40%;
+}		
+.my-content,
+.txt-banner{
+display: none;
+}
+.custom-nav-item {
+padding: 10px 20px;
+}
+}
